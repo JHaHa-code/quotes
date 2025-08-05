@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 명언 - 마음을 울리는 한 줄</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="background-overlay"></div>
+    <div class="paper-texture"></div>
+    <div class="vintage-border"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header Section -->
+        <header class="header-section">
+            <div class="header-ornament top-ornament">
+                <div class="ornament-line"></div>
+                <div class="ornament-center">✦</div>
+                <div class="ornament-line"></div>
+            </div>
+            <h1 class="main-title">
+                <span class="title-word">오늘의</span>
+                <span class="title-word">명언</span>
+            </h1>
+            <p class="subtitle">마음을 울리는 한 줄의 지혜</p>
+            <div class="header-ornament bottom-ornament">
+                <div class="ornament-line"></div>
+                <div class="ornament-center">❋</div>
+                <div class="ornament-line"></div>
+            </div>
+        </header>
+
+        <!-- Quote Display Section -->
+        <main class="quote-section">
+            <div class="quote-container">
+                <div class="quote-frame">
+                    <div class="quote-corner top-left"></div>
+                    <div class="quote-corner top-right"></div>
+                    <div class="quote-corner bottom-left"></div>
+                    <div class="quote-corner bottom-right"></div>
+                    
+                    <div class="quote-content">
+                        <div class="quote-mark opening">"</div>
+                        <p class="quote-text" id="quoteText">
+                            오늘이 내가 살아갈 유일한 날이다.
+                        </p>
+                        <div class="quote-mark closing">"</div>
+                    </div>
+                    
+                    <div class="quote-decoration">
+                        <div class="decoration-line left"></div>
+                        <div class="decoration-center">❦</div>
+                        <div class="decoration-line right"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Button Section -->
+        <section class="button-section">
+            <button class="next-quote-btn" id="nextQuoteBtn">
+                <span class="btn-icon">✧</span>
+                <span class="btn-text">다른 명언</span>
+                <span class="btn-icon">✧</span>
+            </button>
+            
+            <div class="button-decoration">
+                <div class="btn-ornament left-ornament">❈</div>
+                <div class="btn-ornament right-ornament">❈</div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="footer-ornament">
+                <div class="footer-line"></div>
+                <div class="footer-symbol">✤</div>
+                <div class="footer-line"></div>
+            </div>
+            <p class="footer-text">지혜로운 하루를 위한 한 줄의 선물</p>
+            
+            <!-- Instagram Link Button 추가 -->
+            <div class="instagram-section">
+                <a href="https://instagram.com/8ugxx" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                    <span class="instagram-icon">📷</span>
+                    <span class="instagram-text">@8ugxx</span>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Animation -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <p class="loading-text">새로운 지혜를 불러오는 중...</p>
+        </div>
+    </div>
+
+    <!-- Quote Change Animation Elements -->
+    <div class="quote-transition-overlay" id="quoteTransition">
+        <div class="transition-content">
+            <div class="transition-symbol">✦</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
